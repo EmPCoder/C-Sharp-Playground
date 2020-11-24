@@ -21,8 +21,8 @@ namespace MakingDecisions
     //        if (x > 32)
     //        {
     //            double tempFaren = (x - 32) * (.555);
-    //            Console.WriteLine(tempFaren); 
-    //        }           
+    //            Console.WriteLine(tempFaren);
+    //        }
     //    }
 
     //    static void CeltoFar()
