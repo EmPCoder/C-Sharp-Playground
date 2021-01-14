@@ -46,11 +46,16 @@
     <Compile Include="BreakContinue.cs" />
     <Compile Include="DoWhileLoops.cs" />
     <Compile Include="ForLoops.cs" />
+    <Compile Include="Loops Challenge 1\LoopsChallenege1Corrected.cs" />
+    <Compile Include="Loops Challenge 1\LoopsChallenge1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WhileLoop.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Loops Challenge 1\LoopsChallenge1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
