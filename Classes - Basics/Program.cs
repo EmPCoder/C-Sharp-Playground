@@ -21,8 +21,20 @@ namespace Classes___Basics
             //call methods of the class
             denis.IntroduceMyself();
 
-            Human matthew = new Human("Matthew", "Bob", "Green", 1);
+            Human matthew = new Human("Matthew", "Bob", "Green");
             matthew.IntroduceMyself();
+
+            Human rebecca = new Human("Rebecca", "Johnson", 25);
+            rebecca.IntroduceMyself();
+
+            Human bob = new Human("Bob", "Jordan");
+            bob.IntroduceMyself();
+
+            Human jason = new Human("jason");
+            jason.IntroduceMyself();
+
+            Human basicHuman = new Human();
+            basicHuman.IntroduceMyself();
 
             /*
             Human michael = new Human();//Creating Human object, called michael
