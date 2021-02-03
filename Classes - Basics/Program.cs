@@ -10,42 +10,16 @@ namespace Classes___Basics
     {
         static void Main(string[] args)
         {
-            //Create an object of class Human
-            //An instance of Human
-            Human denis = new Human("Denis","Smith ", "Blue", 25);
+            Box box = new Box();
 
-            //access public variable from outside, and even change it
-            //denis.firstName = "Denis ";
-            //denis.lastName = "Smith";
-
-            //call methods of the class
-            denis.IntroduceMyself();
-
-            Human matthew = new Human("Matthew", "Bob", "Green");
-            matthew.IntroduceMyself();
-
-            Human rebecca = new Human("Rebecca", "Johnson", 25);
-            rebecca.IntroduceMyself();
-
-            Human bob = new Human("Bob", "Jordan");
-            bob.IntroduceMyself();
-
-            Human jason = new Human("jason");
-            jason.IntroduceMyself();
-
-            Human basicHuman = new Human();
-            basicHuman.IntroduceMyself();
-
-            /*
-            Human michael = new Human();//Creating Human object, called michael
-
-            michael.firstName = "Michael ";//Setting firstName var defined in human as michael
-            michael.lastName = "Jones";
-            
-            michael.IntroduceMyself();//Calling IntroduceMyself method
-            */
-
-            Console.ReadKey();
+            //box.length = 3;
+            //box.SetLength(4); Because set Set Method to private this doesnt work
+            box.SetLength(-4);
+            box.height = 4;
+            box.width = 5;
+            Console.WriteLine("The box length is => " + box.GetLength());
+            Console.WriteLine("The box Volume is => " + box.GetVolume());
+            box.DisplayInfo();
         }
     }
 }
