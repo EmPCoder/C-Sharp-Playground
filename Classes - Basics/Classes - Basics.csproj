@@ -46,6 +46,8 @@
     <Compile Include="Box.cs" />
     <Compile Include="Human.cs" />
     <Compile Include="BasicProgram.cs" />
+    <Compile Include="Members.cs" />
+    <Compile Include="MembersProgram.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
