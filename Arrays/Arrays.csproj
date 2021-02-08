@@ -46,6 +46,7 @@
     <Compile Include="Foreach Loops and Switch Statement Challenge\ForeachLoopsandSwitchStatementChallenge.cs" />
     <Compile Include="Foreach Loops and Switch Statement Challenge\ForeachLoopsandSwitchStatementChallengeCorrected.cs" />
     <Compile Include="ForeachProgram.cs" />
+    <Compile Include="MultiDimensionalArraysProgram.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
