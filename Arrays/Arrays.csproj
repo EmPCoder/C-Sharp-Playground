@@ -43,12 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Foreach Loops and Switch Statement Challenge\ForeachLoopsandSwitchStatementChallenge.cs" />
+    <Compile Include="Foreach Loops and Switch Statement Challenge\ForeachLoopsandSwitchStatementChallengeCorrected.cs" />
     <Compile Include="ForeachProgram.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Foreach Loops and Switch Statement Challenge\Foreach Loops and Switch Statement Challenge.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
