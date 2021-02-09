@@ -56,6 +56,8 @@ namespace Arrays
             int dimensions = array2DString.Rank;
             Console.WriteLine("Dimension value is {0}", dimensions);
 
+            int[,] array2D2 = { { 1, 2 }, { 3, 4 } };//Knows its a 2d rank by the declaration
+
             
             Console.ReadKey();
         }
