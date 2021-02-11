@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes - Basics", "Classes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{58586887-4080-4447-9889-61546FCE4351}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car Rental", "Car Rental\Car Rental.csproj", "{47E9E48D-380A-43F2-968E-767E0CB3A043}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{58586887-4080-4447-9889-61546FCE4351}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58586887-4080-4447-9889-61546FCE4351}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58586887-4080-4447-9889-61546FCE4351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E9E48D-380A-43F2-968E-767E0CB3A043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E9E48D-380A-43F2-968E-767E0CB3A043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E9E48D-380A-43F2-968E-767E0CB3A043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E9E48D-380A-43F2-968E-767E0CB3A043}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
